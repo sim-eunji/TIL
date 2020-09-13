@@ -1,0 +1,31 @@
+/* menu */
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    /* width: 25%; */
+    flex-grow: 1;
+    background: gold;
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    /* width: 35%; */
+    flex-grow: 1.5;
+    background-color: crimson;
+}
+
+.menu-link {
+    display: block;
+    padding: 1em;
+    /* 폰트사이즈 만큼의 패딩 1.2rem 사이즈 */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-link:hover {
+    color: white;
+}
